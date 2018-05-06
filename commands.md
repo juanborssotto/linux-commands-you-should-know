@@ -13,5 +13,5 @@ dpkg -i PACKAGE_NAME\
 -i install
 
 ##### Remove a package(.deb)
-dpkg -r PACKAGE_NAME\
+dpkg -r PACKAGE_NAME
 
