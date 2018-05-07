@@ -35,7 +35,7 @@ RAM is a volatile type of memory, which means that stored information is lost if
  - buff/cache:  amount of memory being used by buffers and cache.
 
 Whats the difference between cache memory and a buffer?\
-A buffer is a temporary location to store data for a particular application and this data is not used by any other application. For example, when you try to send burst of data through network, if your network card is capable of sending less data, it will keep these huge amounts of data in buffer so that it can send data constantly in lesser speeds. In other hand Cache is a memory location to store frequently used data for faster access. Other difference between a buffer and a cache is that cache can be used multiple times where as buffer is used single time. And both are temporary store for your data processing.
+> A buffer is a temporary location to store data for a particular application and this data is not used by any other application. For example, when you try to send burst of data through network, if your network card is capable of sending less data, it will keep these huge amounts of data in buffer so that it can send data constantly in lesser speeds. In other hand Cache is a memory location to store frequently used data for faster access. Other difference between a buffer and a cache is that cache can be used multiple times where as buffer is used single time. And both are temporary store for your data processing.
 
  - available: Estimation of how much memory is available for starting new applications, without swapping.
 
