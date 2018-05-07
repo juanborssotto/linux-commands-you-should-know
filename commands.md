@@ -22,11 +22,8 @@ free -m
 The output is gonna be something like this:\
 
               total        used        free      shared  buff/cache   available
-\
 Mem:           1888         817         322         111         748         966
-\
 Swap:          1326           3        1322
-\
 
 The row mem gives information about random access memory(RAM). Now, what is RAM?\
 RAM is a volatile type of memory, which means that stored information is lost if power is removed. It stores data and machine code currently being used, and that can be accessed or written a lot faster than in a Non-volatile memory like a hard drive.\
