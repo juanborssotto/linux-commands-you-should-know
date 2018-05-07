@@ -28,10 +28,10 @@ Swap:          1326           3        1322
 The row mem gives information about random access memory(RAM). Now, what is RAM?\
 RAM is a volatile type of memory, which means that stored information is lost if power is removed. It stores data and machine code currently being used, and that can be accessed or written a lot faster than in a Non-volatile memory like a hard drive.
 
- - total: amount of RAM the computer has.\
- - used: amount of RAM that is being used.\
- - free: amount of RAM that is unused.\
- - shared: amount of memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies. Thanks wikipedia.\
+ - total: amount of RAM the computer has.
+ - used: amount of RAM that is being used.
+ - free: amount of RAM that is unused.
+ - shared: amount of memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies.
  - buff/cache:  amount of memory being used by buffers and cache.
 
 Whats the difference between cache memory and a buffer?\
