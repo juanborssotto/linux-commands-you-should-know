@@ -21,7 +21,7 @@ free -m\
 
 The output is gonna be something like this:
 
-              total        used        free      shared  buff/cache   available
+.             total        used        free      shared  buff/cache   available
 Mem:           1888         817         322         111         748         966
 Swap:          1326           3        1322
 
