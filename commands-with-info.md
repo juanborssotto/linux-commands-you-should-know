@@ -1,12 +1,25 @@
-First of all remember, you can always use the command man to read the documentation about any command you like.\
-And yes, you can do man man.\ 
-Also remember that you can use / to search text along the documentation. After hitting ENTER, use n to move to the next occurrence and N to move to the previous one.\
+Remember that you can always use the command man to read the documentation about any command you like.\
+And yes, you can do man man. 
 
-##### Wanna extract a tar file
+# Search files or directories
+
+##### List the files with specific text in their content 
+grep -rl 'SPECIFIC_TEXT' DIRECTORY
+-r: Read all files under DIRECTORY recursively.
+-l: Print the name of the files containing the SPECIFIC_TEXT.
+
+# Extract/Compress 
+
+##### Extract a tar file
 tar -xvf FILE_NAME\
 -x extract this file\
 -v list files processed\
 -f you are going to pass a file name
+
+##### Extract .rar files
+unrar x FILE_NAME
+
+# Package managment
 
 ##### Install a new package(.deb)
 dpkg -i PACKAGE_NAME\
@@ -15,7 +28,11 @@ dpkg -i PACKAGE_NAME\
 ##### Remove a package(.deb)
 dpkg -r PACKAGE_NAME
 
-#### Get information about used and unused memory and swap space
+# Docker
+
+# System information
+
+##### Get information about used and unused memory and swap space
 free -m\
 -m display the values in megabytes
 
@@ -42,30 +59,28 @@ Whats the difference between cache memory and a buffer?
 The row Swap gives information about swap space. Now, what is that?
 > Swap space is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with a small amount of RAM, it should not be considered a replacement for more RAM. Swap space is located on hard drives, which have a slower access time than physical memory.
 
-#### Open a file or URL 
-xdg-open FILE_OR_URL
+# Remove files or directories
 
-The command support file, ftp, http and https URLs.
-
-#### Cool command to kill processes using the pointer to click what you want to kill.
-xkill 
-
-#### Extract .rar files
-unrar x FILE_NAME
-
-#### Remove all files inside a directory
+##### Remove all files inside a directory
 rm DIRECTORY_PATH/* 
 
  - Is it possible to undo the remove of the files 
 > No, it's not possible. There is no trash can for rm. The data is still there on the disk, but the link to it is removed. 
 
-#### Copy a file
+# Copy files or directories
+
+##### Copy a file
 cp SOURCE_FILE DESTINATION_DIRECTORY 
 
-#### Copy a directory and all it's content
+##### Copy a directory and all it's content
 cp -r SOURCE_DIRECTORY DESTINATION_DIRECTORY
 
-#### List the files with specific text in their content 
-grep -rl 'SPECIFIC_TEXT' DIRECTORY
--r: Read all files under DIRECTORY recursively.
--l: Print the name of the files containing the SPECIFIC_TEXT.
+# Util
+
+##### Open a file or URL 
+xdg-open FILE_OR_URL
+
+The command support file, ftp, http and https URLs.
+
+##### Cool command to kill processes using the pointer to click what you want to kill.
+xkill
