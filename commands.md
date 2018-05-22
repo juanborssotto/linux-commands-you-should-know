@@ -46,3 +46,26 @@ The row Swap gives information about swap space. Now, what is that?
 xdg-open FILE_OR_URL
 
 The command support file, ftp, http and https URLs.
+
+#### Cool command to kill processes using the pointer to click what you want to kill.
+xkill 
+
+#### Extract .rar files
+unrar x FILE_NAME
+
+#### Remove all files inside a directory
+rm DIRECTORY_PATH/* 
+
+ - Is it possible to undo the remove of the files 
+> No, it's not possible. There is no trash can for rm. The data is still there on the disk, but the link to it is removed. 
+
+#### Copy a file
+cp SOURCE_FILE DESTINATION_DIRECTORY 
+
+#### Copy a directory and all it's content
+cp -r SOURCE_DIRECTORY DESTINATION_DIRECTORY
+
+#### List the files with specific text in their content 
+grep -rl 'SPECIFIC_TEXT' DIRECTORY
+-r: Read all files under DIRECTORY recursively.
+-l: Print the name of the files containing the SPECIFIC_TEXT.
