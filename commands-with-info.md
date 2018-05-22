@@ -30,6 +30,13 @@ dpkg -r PACKAGE_NAME
 
 # Docker
 
+##### List only running containers
+docker ps
+
+##### List all containers
+docker ps -a
+-a Show all containers
+
 # System information
 
 ##### Get information about used and unused memory and swap space
