@@ -55,3 +55,9 @@ xdg-open FILE_OR_URL
 
 ##### Cool command to kill processes using the pointer to click what you want to kill.
 xkill
+
+##### History of commands
+history
+
+##### Search a specific text in history commands
+history | grep -i SPECIFIC_TEXT
