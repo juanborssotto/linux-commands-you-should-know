@@ -1,46 +1,46 @@
 Remember that you can always use the command man to read the documentation about any command you like.\
-And yes, you can do man man. 
+		 And yes, you can do man man. 
 
 # Search files or directories
 
 ##### List the files with specific text in their content 
-grep -rl 'SPECIFIC_TEXT' DIRECTORY
--r: Read all files under DIRECTORY recursively.
--l: Print the name of the files containing the SPECIFIC_TEXT.
+		 grep -rl 'SPECIFIC_TEXT' DIRECTORY
+		 -r: Read all files under DIRECTORY recursively.
+		 -l: Print the name of the files containing the SPECIFIC_TEXT.
 
 # Extract/Compress 
 
 ##### Extract a tar file
-tar -xvf FILE_NAME\
--x extract this file\
--v list files processed\
--f you are going to pass a file name
+		 tar -xvf FILE_NAME\
+			 -x extract this file\
+			 -v list files processed\
+			 -f you are going to pass a file name
 
 ##### Extract .rar files
-unrar x FILE_NAME
+			 unrar x FILE_NAME
 
 # Package managment
 
 ##### Install a new package(.deb)
-dpkg -i PACKAGE_NAME\
--i install
+			 dpkg -i PACKAGE_NAME\
+				 -i install
 
 ##### Remove a package(.deb)
-dpkg -r PACKAGE_NAME
+				 dpkg -r PACKAGE_NAME
 
 # Docker
 
 ##### List only running containers
-docker ps
+				 docker ps
 
 ##### List all containers
-docker ps -a
--a Show all containers
+				 docker ps -a
+				 -a Show all containers
 
 # System information
 
 ##### Get information about used and unused memory and swap space
-free -m\
+				 free -m\
 -m display the values in megabytes
 
 The output is gonna be something like this:
@@ -98,3 +98,10 @@ history
 ##### Search a specific text in history commands
 history | grep -i SPECIFIC_TEXT
 -i ignore case
+
+##### Shutdown computer
+shutdown -h now
+-h Halt the machine 
+
+##### Suspend computer
+systemctl suspend

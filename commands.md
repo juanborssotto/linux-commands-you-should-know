@@ -61,3 +61,9 @@ history
 
 ##### Search a specific text in history commands
 history | grep -i SPECIFIC_TEXT
+
+##### Shutdown computer
+shutdown -h now
+
+##### Suspend computer
+systemctl suspend
