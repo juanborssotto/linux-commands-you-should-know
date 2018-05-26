@@ -1,10 +1,14 @@
 Remember that you can always use the command man to read the documentation about any command you like.\
 And yes, you can do man man. 
 
-# Search files or directories
+# Search
 
 ##### List the files with specific text in their content 
 grep -rl 'SPECIFIC_TEXT' DIRECTORY
+
+
+
+
 
 # Extract/Compress 
 
@@ -14,6 +18,10 @@ tar -xvf FILE_NAME\
 ##### Extract .rar files
 unrar x FILE_NAME
 
+
+
+
+
 # Package managment
 
 ##### Install a new package(.deb)
@@ -21,6 +29,10 @@ dpkg -i PACKAGE_NAME\
 
 ##### Remove a package(.deb)
 dpkg -r PACKAGE_NAME
+
+
+
+
 
 # Docker
 
@@ -30,23 +42,37 @@ docker ps
 ##### List all containers
 docker ps -a
 
+
+
+
+
 # System information
 
 ##### Get information about used and unused memory and swap space
 free -m\
 
-# Remove files or directories
+
+
+
+
+
+# File/Directory managment
 
 ##### Remove all files inside a directory
 rm DIRECTORY_PATH/* 
-
-# Copy files or directories
 
 ##### Copy a file
 cp SOURCE_FILE DESTINATION_DIRECTORY 
 
 ##### Copy a directory and all it's content
 cp -r SOURCE_DIRECTORY DESTINATION_DIRECTORY
+
+##### Create a new empty file
+touch FILENAME.FILE_EXTENSION
+
+
+
+
 
 # Util
 
