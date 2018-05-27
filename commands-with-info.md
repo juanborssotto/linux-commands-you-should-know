@@ -103,6 +103,20 @@ cp -r SOURCE_DIRECTORY DESTINATION_DIRECTORY
 ##### Create a new empty file
 touch FILENAME.FILE_EXTENSION
 
+##### Change file permissions
+chmod PERMISSION_NUMBER FILE_NAME  
+PERMISSION_NUMBER: 
+- FIRST_DIGIT(Owner permissions)
+- SECOND_DIGIT(Group permissions)
+- THIRD_DIGIT(Everybody else permissions)
+For each digit start at 0 and:
+- +4 for read permission.
+- +2 for write permission.
+- +1 for execution permission.
+
+##### Give file permissions to write, read and execute to anyone
+chmod 777 FILE_NAME
+
 
 
 
