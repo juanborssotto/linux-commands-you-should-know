@@ -70,8 +70,11 @@ cp -r SOURCE_DIRECTORY DESTINATION_DIRECTORY
 ##### Create a new empty file
 touch FILENAME.FILE_EXTENSION
 
-##### Give file permissions to write, read and execute to anyone
+##### Give permissions to write, read and execute a file to anyone
 chmod 777 FILE_NAME
+
+##### Give permissions to write, read and execute all the content of directory to anyone 
+chmod -R 777 DIRECTORY 
 
 
 

@@ -117,6 +117,10 @@ For each digit start at 0 and:
 ##### Give file permissions to write, read and execute to anyone
 chmod 777 FILE_NAME
 
+##### Give permissions to write, read and execute all the content of directory to anyone 
+chmod -R 777 DIRECTORY 
+-R change files and directories recursively 
+
 
 
 
