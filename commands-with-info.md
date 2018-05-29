@@ -121,6 +121,13 @@ chmod 777 FILE_NAME
 chmod -R 777 DIRECTORY 
 -R change files and directories recursively 
 
+##### Sort a file in ascending order
+sort FILENAME
+
+##### Sort a file in descending order
+sort -r FILENAME
+-r reverse
+
 
 
 

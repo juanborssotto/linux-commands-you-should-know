@@ -76,6 +76,12 @@ chmod 777 FILE_NAME
 ##### Give permissions to write, read and execute all the content of directory to anyone 
 chmod -R 777 DIRECTORY 
 
+##### Sort a file in ascending order
+sort FILENAME
+
+##### Sort a file in descending order
+sort -r FILENAME
+
 
 
 
