@@ -82,6 +82,12 @@ sort FILENAME
 ##### Sort a file in descending order
 sort -r FILENAME
 
+##### Redirect terminal output to file
+SOME_COMMAND > FILENAME  
+
+##### Append terminal output to file
+SOME_COMMAND >> FILENAME  
+
 
 
 

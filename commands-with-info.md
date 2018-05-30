@@ -128,6 +128,12 @@ sort FILENAME
 sort -r FILENAME
 -r reverse
 
+##### Redirect terminal output to file
+SOME_COMMAND > FILENAME  
+
+##### Append terminal output to file
+SOME_COMMAND >> FILENAME  
+
 
 
 
