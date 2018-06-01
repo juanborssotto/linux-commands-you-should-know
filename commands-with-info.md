@@ -134,6 +134,9 @@ SOME_COMMAND > FILENAME
 ##### Append terminal output to file
 SOME_COMMAND >> FILENAME  
 
+##### Print the name of the current/working directory
+pwd
+
 
 
 
