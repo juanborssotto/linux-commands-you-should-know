@@ -18,6 +18,9 @@ tar -xvf FILE_NAME\
 ##### Extract .rar files
 unrar x FILE_NAME
 
+##### Compress a file/directory as tar.gz 
+tar -czvf NAME_OF_ARCHIVE.tar.gz PATH_TO_DIRECTORY_OR_FILE
+
 
 
 
