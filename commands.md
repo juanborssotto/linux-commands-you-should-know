@@ -54,6 +54,8 @@ docker ps -a
 ##### Get information about used and unused memory and swap space
 free -m\
 
+##### Report file system disk space usage
+df
 
 
 
