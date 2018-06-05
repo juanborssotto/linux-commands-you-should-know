@@ -96,6 +96,12 @@ SOME_COMMAND >> FILENAME
 ##### Print the name of the current/working directory
 pwd
 
+##### Print last n lines of file
+tail -n NUMBER_LINES FILENAME
+
+##### Print first n lines of file
+head -n NUMBER_LINES FILENAME
+
 
 
 

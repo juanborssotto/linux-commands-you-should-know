@@ -143,6 +143,16 @@ SOME_COMMAND >> FILENAME
 ##### Print the name of the current/working directory
 pwd
 
+##### Print last n lines of file
+tail -n NUMBER_LINES FILENAME
+-n lines
+By default the number of lines is 10, when -n not supplied.
+
+##### Print first n lines of file
+head -n NUMBER_LINES FILENAME
+-n lines
+By default the number of lines is 10, when -n not supplied.
+
 
 
 
