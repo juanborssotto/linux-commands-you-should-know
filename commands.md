@@ -125,3 +125,6 @@ shutdown -h now
 
 ##### Suspend computer
 systemctl suspend
+
+##### Print or write user/login name associated with the current user ID to the standard output.
+whoami
