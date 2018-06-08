@@ -131,3 +131,6 @@ whoami
 
 ##### Change your user password
 passwd
+
+##### Get the Ubuntu version installed
+lsb_release -a
